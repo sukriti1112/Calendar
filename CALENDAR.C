@@ -55,10 +55,8 @@ void main()
     case 12: odd+=3;
   }    }
   odd=odd%7;
-  //printf("%d",ody);
   oddt=odd+ody+(date%7);
   oddt=oddt%7;
-  //printf("%d",oddt);
   switch(oddt)
   { case 0:printf("Sunday");
 	   break;
@@ -72,7 +70,7 @@ void main()
 	   break;
     case 5:printf("Friday");
 	   break;
-    case 6:printf("Sat");
+    case 6:printf("Saturday");
 
     }
  getch();
